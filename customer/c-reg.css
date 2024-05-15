@@ -12,12 +12,18 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
+    padding-right: 10vw;
     margin-top: 40px;
-    width: 96.5%;
-    height: 600px;
+    /* width: 96.5%; */
+    height: 90vh;
     margin: 10px;
+    box-sizing: border-box;
+    width: 96.5vw;
 }
-
+label{
+    padding-left: 8vw;
+    padding-right: 5vw;
+}
 h1{
     margin-top: 20px;
     margin-left: 25px;
@@ -26,45 +32,50 @@ h1{
 
 .first input{
     height: 30px;
-    width: 850px;
+    width: 60vw;
     font-size: 20px;
     color: black;
     float: right;
-    margin-right: 130px;
+    /* margin-right: 130px; */
     
 }
 
 .last input{
     height: 30px;
-    width: 850px;
+    width: 60vw;
     font-size: 20px;
     color: black;
     float: right;
-    margin-right: 130px;
+    margin-right: 0vw;
    
 }
 
 .last select{
-    width: 250px;
+    width: 20vw;
     height: 30px;
     font-size: 20px;
-    margin-right: 730px;
+    margin-right: 40vw;
     float: right;
     
 }
-
+.mobile label{
+    width: 40vw;
+    box-sizing: border-box;
+}
 .mobile input{
-    width: 250px;
+    width: 20vw;
+    display: inline;
     height: 30px;
     float: right;
     font-size: 20px;
-    margin-right: 730px;
+    margin-right: 40vw;
 }
 
 .last textarea {
     font-size: 20px;
     float: right;
-    margin-right: 130px;
+    width: 60vw;
+    margin-right: 0vw;
 }
 .ok input {
     text-align: center;
@@ -74,5 +85,5 @@ h1{
     color: #ffffff;
     background-color: #021649;
     float: right;
-    margin-right: 130px;
+    margin-right: 0vw;
 }

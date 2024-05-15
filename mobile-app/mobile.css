@@ -1,8 +1,9 @@
-/* login page */
-.login{
+
+
+/* main page */
+.main{
     margin-top: 220px;
-    padding: 0;
-   
+    padding: 0;   
 }
 
 .p{
@@ -187,4 +188,55 @@
     align-items: end;
     width: 30px;
     height: 3vh;
+}
+
+.order{
+    background-color: #fff;
+    border:1px solid hsla(0, 0%, 0%, 0.295);
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.order p{
+    margin: 10px;
+}
+
+.or1{
+    display: flex;
+    margin: 10px;
+    font-size: 17px;
+}
+
+/* b-history and p-history */
+
+.Detail{
+    display: flex;
+    background-color: #fff;
+    border:1px solid hsla(240, 81%, 22%, 0.849);
+    /* border-width: 5px; */
+    margin: 10px;
+    
+}
+
+.Detail p{
+    margin: 5px;
+}
+
+body input{
+    margin:10px;   
+    margin-left: 40px; 
+    margin-top: 40px;
+    border:1px solid hsla(240, 81%, 22%, 0.849);
+}
+
+.cus{
+    margin-top: 20px;
+}
+.cus p{
+    margin: 10px;
+    padding: 0;
+    margin-left: 20px;
+    text-align:start;
 }
